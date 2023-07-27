@@ -1,0 +1,18 @@
+SSH CLONE:  git@github.com:GoudSagar/devops-auto-work.git
+     - SSH requires public key to clone, push, pull changes etc
+
+
+command: git clone git@github.com:GoudSagar/devops-auto-work.git
+
+How to generate ssh keys and upload to github account ?
+
+a. ssh-keygen -t rsa  => public key => id_rsa.pub
+                         private key => id_rsa
+
+b. go to profile -> settings -> SSH and GCG keys
+
+Name: 
+
+Copy the ssh public content :
+
+click deploy
