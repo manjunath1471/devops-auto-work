@@ -1,0 +1,12 @@
+git tag: Tag is used for marking the stable point of release or book mark for marking a commit as working commit.
+
+eg : 1.0, 2.0, stable-release-1.0, flipkart-backend, V1, R1, V1.0, Z1.0 etc
+
+command: git tag -l                               // list all tags
+         git tag tag_name                          //create tag and assign tag to latest commit.
+         git tag tag_name commt_id                 // create tag and assign tag to particular commit
+         git tag -f existing_tag_name commt_id     // Replace/update the existing tag to particular commit
+         git tag -d tag_name
+
+         git push -f origin --tags
+         git pull -f origin --tags
